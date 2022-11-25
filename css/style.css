@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+.background {
+  background: url(../images/talking_heads-speaking_in_tongues.png) no-repeat center;
+  background-size: 100%;
+
+}
+
+.background img {
+  position: relative;
+}
+
+img {
+  display: flex;
+  width: 180px;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  margin-left: 70%;
+  margin-top: -10%;
+
+}
+
+.main_header {
+  background-color: yellow;
+  text-align: center;
+  padding: 2%;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  padding: 30px;
+  text-decoration: none;
+  color: inherit;
+  color: white;
+  font: italic;
+}
+
+nav {
+  background-color: rgb(57, 48, 48);
+  margin-top: -0.6cm;
+  padding: 15px;
+  text-align: center;
+}
+
+aside {
+  max-width: 330px;
+  min-width: 50px;
+  /* padding-left: 15px;
+  margin-left: 15px; */
+  float: right;
+  font-style: italic;
+  background-color: rgb(66, 64, 64);
+}
+
+.about_pad {
+  padding: 10px;
+  color: white;
+}
+
+.video {
+  justify-content: center;
+  padding: 15px;
+}
+
+article {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.header1 {
+  background-color:  rgba(10, 10, 10, 0.8);
+  margin-left: 7%;
+  margin-right: 7%;
+  display: block;
+}
+
+footer {
+  text-align: left;
+}
+
+.hr {
+  border: 1px solid yellow;
+  margin-top: 50px;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+.footer_yellow {
+  color: black;
+  padding: 0%;
+}
+
+.yellow_edit {
+  color: yellow;
+  font-size: 40px;
+  
+}
+
+.header_edit {
+  padding: 30px;
+
+}
+
+.title {
+  color: white;
+}
+
+.song {
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  width: 100px;
+}
+
+.about_song {
+  background-color: yellow;
+  padding: 10px;
+}
+
+ .lyric_box{
+  background-color: rgb(255, 247, 3);
+  padding-left: 3px;
+}
+
+.lyric_box > p{
+  background-color: white;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: -20px;
+} 
+
+.hr2 {
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.blackquote_edit {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+.aside_p {
+  padding-top: 20px;
+}
+
+.chorus_edit {
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.article_edit {
+  margin-top: 30px;
+}
